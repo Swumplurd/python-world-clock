@@ -1,7 +1,7 @@
 mainmenu = """\
 Selecciona una opcion:
 
-1) Configurar zonas horarias
+1) Agregar zonas horarias
 2) Ver reloj mundial
 3) Salir
 
