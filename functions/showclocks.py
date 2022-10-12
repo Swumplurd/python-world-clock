@@ -14,5 +14,5 @@ def showclocks():
     while control == 1:
         os.system("cls")
         for zone in zones:
-            print(f"{zone} {datetime.now(pytz.timezone(zone)).strftime('%A %d de %B del %Y || %H:%M')}")
+            print(f"{datetime.now(pytz.timezone(zone)).strftime('%A %d de %B del %Y || %H:%M')}\t{zone}")
         sleep(15)

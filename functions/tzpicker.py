@@ -6,7 +6,7 @@ import pytz, os
 zones = []
 
 def tzpicker():
-    zone = pick(pytz.all_timezones, tzselectmsg, indicator = '=>', default_index = 0)
+    zone = pick(pytz.common_timezones, tzselectmsg, indicator = '=>', default_index = 0)
     if zones.count(zone[0]) == 0:
         zones.append(zone[0])
     else:
