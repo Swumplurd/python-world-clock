@@ -26,6 +26,10 @@ Selecciona una opcion:
 3) Salir
 ```
 
+### Nota
+
+El archivo `zones.txt` es obligatiorio por el momento al inicializar el programa
+
 ---
 
 Cualquier duda o sugerencia al contenido del precente repositorio contactame en Discord: Swumplurd#3977

@@ -10,8 +10,7 @@ def showclocks():
         sleep(3)
         os.system("cls")
     else:
-        clockinitializer = 1
-        while clockinitializer == 1:
+        while True:
             os.system("cls")
             for zone in zones:
                 print(f"{datetime.now(pytz.timezone(zone)).strftime('%A %d de %B del %Y   ')}\t{datetime.now(pytz.timezone(zone)).strftime('|| %H:%M ||')}\t{zone}")
